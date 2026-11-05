@@ -23,19 +23,26 @@ architectural decisions, debug and test the features.
 ## Currently Building
 - [x] Multi-tenant architecture with role-based access
 - [x] Invoicing, payments, discounts, print layout
+- [x] Quote and checkout UI for quoting jobs 
 - [x] Scheduler and dashboard integration
 - [x] Installer commission tracking/dashboard
 - [x] Inventory management
-- [X] Check In Form
-- [ ] Multi-Location Managment (in progress)
+- [x] Check-in form
+- [x] Multi-location management
+- [x] QuickBooks integration (sync + payments)
+- [x] Square integration (sync + payments)
+- [x] SMS notifications via Twilio
+- [x] Payment links, webhooks, lead capture forms
+- [x] iOS app via Capacitor — running in TestFlight (submission in progress)
+- [ ] Stax payments integration (in progress)
 - [ ] Reporting and analytics
-- [ ] Analytics Home Dashboard
+- [x] Analytics home dashboard
 
 ## Other Projects
 - **stripe_payments** — Rails + Stripe demo with full test suite
 - **commission.report** — Built for window tint installers to track per-job 
   earnings. The origin story for Tint Shop App's commission feature.
-- **colinchristmas.com** — Personal site, Rails, running since 2016
+- **colinchristmas.com** — Personal site, originally Rails -> migrated to Next.JS
 
 ## Links
 🌐 [colinchristmas.com](https://colinchristmas.com)
